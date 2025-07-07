@@ -1,5 +1,11 @@
+import Hero from "../components/partials/homepage/Hero";
+
 const HomePage = () => {
-    return <></>;
+    return (
+        <>
+            <Hero />
+        </>
+    );
 };
 
 export default HomePage;
