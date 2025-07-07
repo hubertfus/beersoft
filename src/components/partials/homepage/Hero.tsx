@@ -1,3 +1,5 @@
+import Button from "../../ui/Button";
+
 const Hero = () => {
     return (
         <section className="flex justify-center bg-gradient-to-br from-amber-50 to-orange-50 pt-16 pb-20">
@@ -14,12 +16,8 @@ const Hero = () => {
                         breweries.
                     </p>
                     <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                        <button className="bg-amber-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors flex items-center justify-center">
-                            Start Free Trial
-                        </button>
-                        <button className="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
-                            Watch Demo
-                        </button>
+                        <Button>Start Free Trial</Button>
+                        <Button variant="outline">Watch Demo</Button>
                     </div>
                     <div className="mt-8 flex items-center space-x-8">
                         <div className="text-center">

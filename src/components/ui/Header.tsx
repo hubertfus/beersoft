@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const Header = () => {
     return (
         <header className="flex justify-center bg-white">
@@ -35,12 +37,10 @@ const Header = () => {
                     </a>
                 </nav>
                 <div className="flex items-center space-x-4">
-                    <button className="text-gray-700 hover:text-amber-600 transition-colors">
+                    <Button variant="outline" className="px-4 py-2">
                         Sign In
-                    </button>
-                    <button className="bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors">
-                        Start Free Trial
-                    </button>
+                    </Button>
+                    <Button className="px-4 py-2">Start Free Trial</Button>
                 </div>
             </div>
         </header>
