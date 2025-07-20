@@ -39,7 +39,7 @@ const Header = () => {
                 </nav>
                 <div className="flex items-center space-x-4">
                     <Button variant="outline" className="px-4 py-2">
-                        Sign In
+                        <Link to="/login">Sign In</Link>
                     </Button>
                     <Button className="px-4 py-2">
                         <Link to={"/register"}>Start Free Trial</Link>
